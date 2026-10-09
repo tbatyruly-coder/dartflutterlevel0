@@ -3,6 +3,11 @@ name: _flutter_packages
 environment:
   sdk: ^3.11.0-0
 
+  # Подключение локальных файлов и папок
+  assets:
+    - assets/images/bg.png    # Подключение конкретного файла
+    - assets/icons/icon.png
+
 workspace:
   - dev/a11y_assessments
   - dev/automated_tests
